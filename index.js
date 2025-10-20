@@ -7,7 +7,7 @@ const sequelize = require('./src/config/database')
 const app = express()
 const port = 3000
 const specs = swaggerJsdoc(swaggerOptions)
-
+// teste
 const userRoutes = require('./src/routes/userRoute')
 const alunoRoutes = require('./src/routes/alunoRoute')
 
